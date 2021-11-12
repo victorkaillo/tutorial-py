@@ -7,13 +7,6 @@ from uuid import UUID
 from api_pedidos.esquema import Item
 from api_pedidos.excecao import PedidoNaoEncontradoError, FalhaDeComunicacaoError
 
-
-# ...
-
-    # ... classe de testes ...
-    
-
-
 @pytest.fixture
 def cliente():
     return TestClient(app)
