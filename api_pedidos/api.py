@@ -1,4 +1,5 @@
 import os
+import httpx
 from http import HTTPStatus
 from uuid import UUID
 
@@ -13,7 +14,6 @@ from api_pedidos.excecao import (
 
 # ...
 url = "http://127.0.0.1:8080"
-import httpx
 
 # tenant e apikey fixos somente para demonstrações
 APIKEY = os.environ.get("APIKEY", "5734143a-595d-405d-9c97-6c198537108f")
